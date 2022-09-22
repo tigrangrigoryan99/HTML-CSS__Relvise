@@ -11,3 +11,11 @@ function closeHeader() {
     elem.classList.remove("act-menu");
 }
 
+function clearActiveClass() {
+    let elem = document.getElementById("activelink");
+    elem.classList.remove("menu-header__link_active");
+}
+function addActiveClass() {
+    let elem = document.getElementById("activelink");
+    elem.classList.add("menu-header__link_active");
+}

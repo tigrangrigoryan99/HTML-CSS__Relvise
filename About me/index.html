@@ -18,20 +18,39 @@
             <div class="menu-header__nav" id="active">
               <ul class="menu-header__list">
                 <li class="menu-header__item">
-                  <a href="#" class="menu-header__link menu-header__link_active"
+                  <a
+                    id="activelink"
+                    href="#"
+                    class="menu-header__link menu-header__link_active"
                     >Home</a
                   >
                 </li>
-                <li class="menu-header__item">
+                <li
+                  class="menu-header__item"
+                  onmouseenter="clearActiveClass()"
+                  onmouseleave="addActiveClass()"
+                >
                   <a href="#" class="menu-header__link">About me</a>
                 </li>
-                <li class="menu-header__item">
+                <li
+                  class="menu-header__item"
+                  onmouseenter="clearActiveClass()"
+                  onmouseleave="addActiveClass()"
+                >
                   <a href="#" class="menu-header__link">Skills</a>
                 </li>
-                <li class="menu-header__item">
+                <li
+                  class="menu-header__item"
+                  onmouseenter="clearActiveClass()"
+                  onmouseleave="addActiveClass()"
+                >
                   <a href="#" class="menu-header__link">Portfolio</a>
                 </li>
-                <li class="menu-header__item">
+                <li
+                  class="menu-header__item"
+                  onmouseenter="clearActiveClass()"
+                  onmouseleave="addActiveClass()"
+                >
                   <a href="#" class="menu-header__link">Contacts</a>
                 </li>
               </ul>
@@ -138,7 +157,7 @@
                         <img src="./img/skills/stars/Star.svg" alt="star" />
                       </div>
                       <div class="stars-block__star">
-                        <img src="./img/skills/stars/Star.svg" alt="star" />
+                        <img src="./img/skills/stars/Star1.svg" alt="star1" />
                       </div>
                       <div class="stars-block__star">
                         <img src="./img/skills/stars/Star1.svg" alt="star1" />
@@ -255,7 +274,7 @@
             <div class="footer__title">Contacts</div>
             <div class="footer__body body-item">
               <div class="body-item__send">
-                <div class="fbody-item__text">
+                <div class="body-item__text">
                   Want to know more or just chat? <br />
                   You are welcome!
                 </div>
