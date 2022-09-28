@@ -1,0 +1,137 @@
+/* Imports */ /* Zeroing --------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+    (SASS and SCSS) sranq nuynn uxxaki SASS aranc {}-i e grvum isk SCSS-@ {}-ov
+*/
+/*
+    Ete stex span toxum enq 'bolck'-i mej nshanakuma block-i sax 'span'-er@ ete qcenq 'block__text'-i mej klini nra meji sax spaner@ 
+*/
+/*
+    SCSS-i arandznahatkutyunnerica naev 'import' anel@,
+    orinak 'Zeroing' grenq urish file-um 'import' anenq stex
+*/
+.link-2, .link {
+  border-bottom: 5px dashed red;
+}
+
+/*
+    Shablon@ class-in kpcnelu hamar '@extend'-enq anum tvyal class-i mej,
+    aysinqn na mi class-e vor@ stexcuma skzbnakan styler heto ete mekum chenq
+    uzum poxum enq dra mej.
+
+    Karox enq naev aranc '%' sarqel uxxaki .className u grel
+*/
+.block {
+  padding: 30px;
+  line-height: 60px;
+}
+.block .bolck__text {
+  font-size: 80px;
+}
+.block .bolck__text span {
+  color: green;
+}
+
+.link {
+  color: #000;
+  text-decoration: underline;
+  font-size: 80px;
+}
+.block .link {
+  font-size: 100px;
+}
+.link:hover {
+  color: green;
+}
+.link::before {
+  content: "";
+}
+.link::after {
+  content: "";
+}
+
+.link-2 {
+  font-size: 80px;
+}
