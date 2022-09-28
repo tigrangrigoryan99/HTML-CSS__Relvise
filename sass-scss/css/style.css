@@ -1,4 +1,3 @@
-/* Imports */ /* Zeroing --------------------------------------------------------*/
 * {
   padding: 0;
   margin: 0;
@@ -82,28 +81,13 @@ h6 {
   font-weight: inherit;
 }
 
-/*
-    (SASS and SCSS) sranq nuynn uxxaki SASS aranc {}-i e grvum isk SCSS-@ {}-ov
-*/
-/*
-    Ete stex span toxum enq 'bolck'-i mej nshanakuma block-i sax 'span'-er@ ete qcenq 'block__text'-i mej klini nra meji sax spaner@ 
-*/
-/*
-    SCSS-i arandznahatkutyunnerica naev 'import' anel@,
-    orinak 'Zeroing' grenq urish file-um 'import' anenq stex
-*/
 .link-2, .link {
   border-bottom: 5px dashed red;
 }
 
-/*
-    Shablon@ class-in kpcnelu hamar '@extend'-enq anum tvyal class-i mej,
-    aysinqn na mi class-e vor@ stexcuma skzbnakan styler heto ete mekum chenq
-    uzum poxum enq dra mej.
-
-    Karox enq naev aranc '%' sarqel uxxaki .className u grel
-*/
 .block {
+  width: 31.25%;
+  background-color: #666;
   padding: 30px;
   line-height: 60px;
 }
@@ -133,5 +117,6 @@ h6 {
 }
 
 .link-2 {
-  font-size: 80px;
+  font-size: 100px;
+  color: green;
 }
